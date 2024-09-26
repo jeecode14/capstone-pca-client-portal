@@ -1,0 +1,48 @@
+.subscription {
+    .subscription-banner {
+        max-width: 1000px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .subs-left {
+        width: 50%;
+        margin-right: 50px;
+        border-right: 2px solid orange;
+    }
+    .subs-right {
+        width: 50%;
+    }
+    .label-item {
+        font-size: 17px;
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .bank-details {
+        .bank-item {
+            margin: 20px 0;
+            .bank-name {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.sec--subsc-detail {
+    background: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+.sec--form {
+    margin-top: 20px;
+}
+
+.small {
+    font-size: 12px;
+}

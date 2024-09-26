@@ -1,0 +1,15 @@
+.authScreen {
+    padding-top: 85px;
+    display: flex;
+    margin: 20px;
+    .nav-grp {
+        width: 20%;
+        border-right: 1px solid orange;
+        min-height: 80vh;
+        margin-right: 30px;
+    }
+    .auth-body {
+        margin-left: 10px;
+        width: 80%;
+    }
+}

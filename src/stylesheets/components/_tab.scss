@@ -1,0 +1,89 @@
+.tab {
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    &__container {
+        background: #171717;
+        color: #fff;
+        padding-top: 85px;
+        height: 100vh;
+    }
+    &__list {
+        background: orange;
+    }
+    &__item {
+        width: 50%;
+        font-size: 18px;
+        color: white;
+
+        &:hover {
+            color: white;
+            background: orange;
+        }
+        &[data-active] {
+            color: white;
+            font-weight: bold;
+        }
+    }
+    &__panel {
+        font-size: 15px;
+        padding: 15px;
+        height: 80vh;
+    }
+}
+
+.genTab,
+.forecast__controls {
+    .mantine-Select-label,
+    .mantine-DatePicker-label {
+        color: #fff;
+    }
+    .layer__label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .layer__result {
+        margin-top: 10px;
+        overflow-y: auto;
+        max-height: 40vh;
+        margin-bottom: 20px;
+
+        .mantine-NavLink-label {
+            color: #fff;
+        }
+
+        .mantine-Accordion-item {
+            border: unset;
+        }
+
+        .mantine-Accordion-control {
+            color: #fff;
+            width: 100%;
+            &:hover {
+                color: orange;
+                background: #171717;
+            }
+        }
+        .mantine-Accordion-content {
+            color: #fff;
+            margin-left: 30px;
+            font-size: 12px;
+        }
+        .mantine-ActionIcon-root {
+            &:hover {
+                background-color: darkorange;
+                color: #fff !important;
+            }
+        }
+    }
+    .active {
+        font-weight: bold;
+        color: orange;
+    }
+}
+
+.layer__redirect {
+    margin-top: 20px;
+}

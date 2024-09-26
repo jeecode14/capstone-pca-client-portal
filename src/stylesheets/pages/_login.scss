@@ -1,0 +1,15 @@
+.login {
+    background: #fffbf5;
+    min-height: 100vh;
+    &__logo {
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        color: #fd7e14;
+        &:hover {
+            text-decoration: none;
+            color: #fd7e14;
+        }
+    }
+}

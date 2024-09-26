@@ -1,0 +1,51 @@
+.avail {
+    &__container {
+        max-width: 1300px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        @include breakpoint(xs) {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    &__item {
+        border: 1px solid orange;
+        padding: 50px;
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr 2fr 1fr;
+        gap: 5px;
+        &--title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        img {
+            margin: 0 auto;
+            width: 50px;
+            object-fit: contain;
+        }
+        .grp {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .feat {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+
+        .btn {
+            margin-top: auto;
+            padding-top: 40px;
+        }
+    }
+}

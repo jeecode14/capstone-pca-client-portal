@@ -1,0 +1,33 @@
+.terms {
+    &__hero {
+        background: url('../../assets/images/hero-coco-bg.png'), rgba(0, 0, 0, 0.6);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    &__container {
+        border: 1px solid orange;
+        padding: 20px;
+        max-width: 900px;
+        margin: 50px auto;
+        @include breakpoint(xs) {
+            margin: 30px 20px;
+        }
+    }
+    h1 strong,
+    h2 strong,
+    p strong {
+        font-size: 18px !important;
+        line-height: 1px;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+    }
+}

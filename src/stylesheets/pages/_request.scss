@@ -1,0 +1,16 @@
+.request {
+    &__body {
+        margin-top: 40px;
+    }
+    .pagination__cont {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .filter__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        align-items: flex-end;
+    }
+}

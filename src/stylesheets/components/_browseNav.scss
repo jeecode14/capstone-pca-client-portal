@@ -1,0 +1,19 @@
+.browseNav {
+    bottom: unset !important;
+    z-index: 101;
+}
+
+.browseHeader {
+    background: #171717;
+    border: 0 !important;
+}
+
+.slink {
+    color: orange;
+    width: 100% !important;
+    display: inline-block;
+    &:hover {
+        text-decoration: none;
+        color: darkorange;
+    }
+}
