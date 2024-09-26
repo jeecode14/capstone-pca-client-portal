@@ -1,6 +1,6 @@
-# :sunny: SINAG WebGIS Front-end
+# :sunny: PCA Client Web Portal
 
-The SINAG WebGIS Front-end runs on React and Node.js environment.
+The PCA Client Portal Front-end runs on React and Node.js environment.
 
 ## :wrench: What you need to run this on your local
 
@@ -37,22 +37,4 @@ REACT_APP_API = https://localhost
 -   State Management: [Redux Toolkit](https://redux-toolkit.js.org/)
 -   Data Visualisation: [Recharts](https://recharts.org/en-US)
 -   Map Library: [React leaflet](https://react-leaflet.js.org/)
-
-### Accessing the Pages
-
--   You can go `/src/Router.js` to check the corresponding pages.
-
-### Changing the Mark up or CSS
-
--   The app runs on JSX and SCSS you can just look for the `classNames` inside the `.scss` files inside `/src/stylesheets`
-
-### Where to find the HTTP Requests
-
--   If you go to `/src/services/features` you can see different slice files. The slice file depends on the feature of the app. For example if you want to see the http requests made on the Map feature you can go to the `MapsSlice.js`. Read about redux toolkit on their documentation page.
-
-## :rocket: How to Deploy
-
--   The app is deployed on netlify, you can just push the updates on the `master` branch in git, and it should automatically be deployed.
-
-## :rocket: About the Application
 
